@@ -1,7 +1,10 @@
 {{ partial "header" . }}
 
-<main id='main' class='main'>
-  {{ .Content }}
-</main>
+<div class="container">
+  <h1>{{ .Site.Title }}</h1>
+  <main id='main' class='main'>
+    {{ .Content }}
+  </main>
+</div>
 
 {{ partial "footer" . }}

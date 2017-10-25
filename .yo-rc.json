@@ -1,0 +1,9 @@
+{
+  "generator-toolbox": {
+    "promptValues": {
+      "repo": "git@github.com:antistatique/hugo-pages.git",
+      "src": "assets/",
+      "dest": "build/"
+    }
+  }
+}
